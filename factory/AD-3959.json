@@ -1,0 +1,9 @@
+{
+	"name": "AD-3959",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d8073f3f-8173-433f-9541-27e20127af93",
+		"tenantId": "e17483a9-0734-4838-b376-40bd71dd9ae3"
+	}
+}

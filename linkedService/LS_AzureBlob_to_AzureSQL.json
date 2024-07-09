@@ -1,0 +1,13 @@
+{
+	"name": "LS_AzureBlob_to_AzureSQL",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"description": "AzureBlob-to-AzureSQL",
+		"annotations": [],
+		"type": "AzureBlobStorage",
+		"typeProperties": {
+			"connectionString": "DefaultEndpointsProtocol=https;AccountName=storageaccount3959;EndpointSuffix=core.windows.net;",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQEFENjgxQzUyLUE3MDMtNDA5Ri1CNDk2LTdCRjNCNzI1MUY4Nl8wZmY0NzJmMS1iMDcyLTQyOTYtYjI0Mi0wZDUwY2Y2OTAxNDIiDQp9"
+		}
+	}
+}
