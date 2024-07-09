@@ -1,0 +1,27 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "AD-3959"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"LS_AzureBlob_to_AzureSQL_connectionString": {
+			"value": ""
+		},
+		"LS_AzureSQL_password": {
+			"value": ""
+		},
+		"LS_AzureSQL_properties_typeProperties_server": {
+			"value": "sqladmin3959.database.windows.net"
+		},
+		"LS_AzureSQL_properties_typeProperties_database": {
+			"value": "freeserver3959"
+		},
+		"LS_AzureSQL_properties_typeProperties_userName": {
+			"value": "sql"
+		}
+	}
+}
